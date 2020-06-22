@@ -1,0 +1,167 @@
+body{
+	background-color: black;
+	color: white;
+}
+h1{
+	text-align: center;
+}
+
+
+
+div.header>ul>li>a{
+	list-style-type: none; 
+}
+
+
+
+ul.dropdown>ul>li{
+		list-style-type: none;
+}
+ul.dc{
+	display: none;
+	width: 30px;
+	height: 60px
+	font-size : 30px;
+	position: absolute;
+}
+li.dd:hover>ul.dc{
+	display: block;
+	position: relative;
+}
+li>a{
+	text-decoration : none;
+	color: white;
+	font-size: 20px: 
+}
+li>a:hover{
+	color: yellow;
+}
+ul.dropdown,nav.navbar{
+	display: inline-block;
+}
+
+
+div.status{
+	margin: 0 auto;
+	height: 10em;
+	font-size: 60px;
+	color: #399e4f;
+}
+div.status>ul{
+	margin: 0 auto;
+	list-style-type: none;
+	text-align: center;
+	background-color: brown;
+	opacity: 0.5;
+}
+div.status>ul>li:hover{
+	opacity: 1;
+	background-color: green;
+	color: white;
+}
+
+
+div.achive{
+	transition-delay: 1sec div;
+	margin-bottom: 30px;
+}
+
+div.skill{
+	margin: 0 auto;
+	height: 20em;
+	font-size: 30px;
+	color: #399e4f;	
+}
+div.skill>ul{
+	margin: 0 auto;
+	list-style-type: none;
+	text-align: center;
+	background-color: brown;
+	opacity: 0.5;
+}
+div.skill>ul>li:hover{
+	opacity: 1;
+	background-color: green;
+	color: white;	
+}
+
+
+
+
+
+
+img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+}
+ul.dropdown,nav>ul>li{
+	display: inline-block;
+}
+hr{
+	color: gray;
+}
+nav{
+	margin-left: 5em;
+}
+nav>ul>li{
+	font-size: 20px;
+	margin: 0 30px;
+	padding: 20px;
+	border-radius: 18px;
+}
+div>nav>ul>li:hover{
+	/*background-color: white;*/
+	color : yellow;
+	border-bottom : 2px solid white;
+}
+.active{
+	background-color: black;
+	color: yellow;
+	border-bottom : 2px solid white;
+}
+td>img{
+	width: 40px;
+	height: 40px;
+}
+table{
+	margin: 0 auto;
+	width: 50vw;
+	font-size: 24px;
+	font-style: italic;
+	color: #399e4f;
+}
+h2{
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+	color: #399e4f;
+}
+td{
+	margin: 0em 1em;
+	width: 2em;
+}
+input{
+	width: 30em;
+	height: 30px;
+	opacity: 0.8;
+	margin: 2em 10em;
+}
+input:hover{
+	opacity: 1;
+	background-color: white;
+}
+form>table{
+	margin-top: 10em;
+}
+legend{
+	border: 3px solid white;
+}
+div.footer{
+	background-color: brown;
+	bottom: 0%;
+	transition: 1sec background-color;
+}
+input.submit{
+	text-align: center;
+}
