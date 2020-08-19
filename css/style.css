@@ -151,6 +151,7 @@ input{
 input:hover{
 	opacity: 1;
 	background-color: white;
+	outline:none;
 }
 form>table{
 	margin-top: 10em;
