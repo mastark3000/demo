@@ -146,6 +146,7 @@ input{
 	height: 30px;
 	opacity: 0.8;
 	margin: 2em 10em;
+	outline: none;
 }
 input:hover{
 	opacity: 1;
